@@ -1,0 +1,4 @@
+# This is the file that creates and publishes a new version
+
+lessc custom/custom-bootstrap.less > release/dev/bootstrap.css
+cleancss -o release/min/bootstrap.min.css release/dev/bootstrap.css
