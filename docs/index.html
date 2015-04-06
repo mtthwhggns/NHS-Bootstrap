@@ -2,22 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bootstrap for NHS Organisations</h1>
+    <p>Quickly create simple websites and apps without a designer, using the web's most popular framework, ready-styled to match the NHS Brand Guidelines</p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Download</a>
+      <a class="btn btn-default btn-lg" href="#" role="button">GitHub Project</a>
+    </p>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+  <div>
+    <h2>The Styles</h2>
+    <p class="lead">All of the syntax needed matches exactly that of Bootstrap, so please refer to the very comprehensive Bootstrap documentation for details of the code you need to incorporate various styles and components.</p>
+  </div>
 </div>
