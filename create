@@ -1,4 +1,17 @@
 # This is the file that creates and publishes a new version
 
-lessc custom/custom-bootstrap.less > release/dev/bootstrap.css
-cleancss -o release/min/bootstrap.min.css release/dev/bootstrap.css
+# Make the CSS files
+lessc css/custom-bootstrap.less > dist/dev/css/bootstrap.css
+cleancss -o dist/min/css/bootstrap.min.css dist/dev/css/bootstrap.css
+
+# Copy in the JS
+cp vendor/bootstrap/dist/js/bootstrap.js dist/dev/js/bootstrap.js
+cp vendor/bootstrap/dist/js/bootstrap.min.js dist/min/js/bootstrap.min.js
+
+# Copy in the fonts
+cp -R vendor/bootstrap/dist/fonts dist/dev/fonts
+cp -R vendor/bootstrap/dist/fonts dist/min/fonts
+
+# Compress the finished distribution copies
+zip -r ../nhs-bootstrap-min.zip dist/min
+zip -r ../nhs-bootstrap-dev.zip dist/dev
