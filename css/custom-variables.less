@@ -378,15 +378,15 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             @nhs-white;
-@navbar-default-bg:                @nhs-blue;
+@navbar-default-color:             @nhs-blue;
+@navbar-default-bg:                @nhs-white;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
 @navbar-default-link-color:                @navbar-default-color;
-@navbar-default-link-hover-color:          #CCC;
+@navbar-default-link-hover-color:          lighten(@navbar-default-color, 25%);
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         #AAA;
+@navbar-default-link-active-color:         lighten(@navbar-default-color, 15%);
 @navbar-default-link-active-bg:            lighten(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
@@ -397,35 +397,35 @@
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-@navbar-default-toggle-hover-bg:           #ddd;
-@navbar-default-toggle-icon-bar-bg:        #888;
-@navbar-default-toggle-border-color:       #ddd;
+@navbar-default-toggle-hover-bg:           lighten(@navbar-default-color, 35%);
+@navbar-default-toggle-icon-bar-bg:        lighten(@navbar-default-color, 20%);
+@navbar-default-toggle-border-color:       lighten(@navbar-default-color, 35%);
 
 
 // Inverted navbar
 // Reset inverted navbar basics
-@navbar-inverse-color:                      lighten(@gray-light, 15%);
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-color:                      @nhs-white;
+@navbar-inverse-bg:                         @nhs-blue;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 lighten(@gray-light, 15%);
-@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-color:                 @nhs-white;
+@navbar-inverse-link-hover-color:           darken(@nhs-white, 15%);
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
 @navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
-@navbar-inverse-link-disabled-color:        #444;
+@navbar-inverse-link-disabled-color:        darken(@nhs-white, 20%);
 @navbar-inverse-link-disabled-bg:           transparent;
 
 // Inverted navbar brand label
 @navbar-inverse-brand-color:                @navbar-inverse-link-color;
-@navbar-inverse-brand-hover-color:          #fff;
+@navbar-inverse-brand-hover-color:          darken(@navbar-inverse-brand-color, 5%);
 @navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle
-@navbar-inverse-toggle-hover-bg:            #333;
-@navbar-inverse-toggle-icon-bar-bg:         #fff;
-@navbar-inverse-toggle-border-color:        #333;
+@navbar-inverse-toggle-hover-bg:            darken(@nhs-white, 20%);
+@navbar-inverse-toggle-icon-bar-bg:         @nhs-white;
+@navbar-inverse-toggle-border-color:        darken(@nhs-white, 20%);
 
 
 //== Navs
