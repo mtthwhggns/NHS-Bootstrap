@@ -1,8 +1,13 @@
 # This is the file that creates and publishes a new version
 
+# First, we'll delete then re-build the dist folder, to make sure
+# that non-rewriting errors don't stop it.
+rm -rf dist
+mkdir "dist" "dist/dev" "dist/min" "dist/dev/css" "dist/dev/fonts" "dist/dev/js" "dist/min/css" "dist/min/fonts" "dist/min/js"
+
 # Make the CSS files
 lessc css/custom-bootstrap.less > dist/dev/css/bootstrap.css
-cleancss -o dist/min/css/bootstrap.min.css dist/dev/css/bootstrap.css
+cleancss -o dist/min/css/bootstrap.min.css --skip-rebase dist/dev/css/bootstrap.css
 
 # Copy in the JS
 cp vendor/bootstrap/dist/js/bootstrap.js dist/dev/js/bootstrap.js
