@@ -1,0 +1,96 @@
+  <h2>Signage Mockups<span class="badge badge-info">beta</span></h2>
+  <div class="row">
+    <div class="col-md-7">
+      <p class="lead">We've included some classes which allow you to create signage mockups in any NHS colour.</p>
+      <p>You just need to start with a <code>div</code> with the class of <code>sign</code> <strong>and</strong> either <code>one-line-horizontal</code> or <code>three-line-rectangle</code>. You can optionally add the class <code>destination-centre</code> to centre the sign text, and <code>destination-right</code> to right-align it. There's no class needed to left align the text.</p>
+      <p>Inside this, just include the text of the sign, inside a <code>span</code> with the class <code>destination</code>.</p>
+      <p>You can add an arrow to the sign, using glyphicons. If you want it to appear on the left, just before the text, include the glyphicon span code inside the <code>destination</code> span. If you want to display it on the right, add the class of <code>arrow-right</code> to the <code>destination</code> span and the class <code>glyphicon-arrow-right</code> to the glyphicon span.</p>
+    </div>
+    <div class="col-md-5">
+      <h3>Included Colours</h3>
+      <ul>
+        <li><code>sign-blue</code></li>
+        <li><code>sign-dark-green</code></li>
+        <li><code>sign-green</code></li>
+        <li><code>sign-light-green</code></li>
+        <li><code>sign-aqua-green</code></li>
+        <li><code>sign-aqua-blue</code></li>
+        <li><code>sign-light-blue</code></li>
+        <li><code>sign-dark-blue</code></li>
+        <li><code>sign-purple</code></li>
+        <li><code>sign-dark-pink</code></li>
+        <li><code>sign-dark-red</code></li>
+        <li><code>sign-red</code></li>
+        <li><code>sign-orange</code></li>
+        <li><code>sign-yellow</code></li>
+        <li><code>sign-black</code></li>
+        <li><code>sign-white</code></li>
+      </ul>
+    </div>
+  </div>
+  <div class="well">
+    <h3>Examples</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sign one-line-horizontal sign-blue">
+            <span class="destination">
+                <span class="glyphicon glyphicon-arrow-up"></span>
+                Main Entrance
+            </span>
+        </div>
+        <div class="sign one-line-horizontal sign-red">
+            <span class="destination arrow-right">
+                Emergency Department
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </span>
+        </div>
+        <div class="sign one-line-horizontal sign-yellow">
+            <span class="destination">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+                Eye Unit
+            </span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        {% highlight html %}
+<div class="sign one-line-horizontal sign-blue">
+    <span class="destination">
+        <span class="glyphicon glyphicon-arrow-up"></span>
+        Main Entrance
+    </span>
+</div>
+<div class="sign one-line-horizontal sign-red">
+    <span class="destination arrow-right">
+        Emergency Department
+        <span class="glyphicon glyphicon-arrow-right"></span>
+    </span>
+</div>
+<div class="sign one-line-horizontal sign-yellow">
+    <span class="destination">
+        <span class="glyphicon glyphicon-arrow-left"></span>
+        Eye Unit
+    </span>
+</div>
+        {% endhighlight %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sign three-line-rectangle sign-blue destination-centre">
+          <span class="destination">
+            Respiratory High Dependency Unit
+          </span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        {% highlight html %}
+  <div class="sign three-line-rectangle sign-blue destination-centre">
+    <span class="destination">
+      Respiratory High Dependency Unit
+    </span>
+  </div>
+        {% endhighlight %}
+      </div>
+    </div>
+  </div>
+</div>

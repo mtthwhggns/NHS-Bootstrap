@@ -3451,7 +3451,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #ffffff;
   background-color: #66c2ff;
 }
 .dropdown-menu > .active > a,
@@ -6463,6 +6463,107 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.sign.one-line-horizontal {
+  min-width: 15em;
+  max-width: 30em;
+  min-height: 3.5em;
+  padding: 0.8em;
+}
+.sign.three-line-rectangle {
+  min-width: 8em;
+  max-width: 20em;
+  min-height: 6em;
+  max-height: 14em;
+  padding: 1em;
+}
+.sign .destination {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-weight: bold;
+  font-size: 160%;
+}
+.sign .destination .glyphicon {
+  width: 1.3em;
+  padding-left: 0.2em;
+}
+.sign .arrow-right {
+  padding-left: 1.60em;
+}
+.sign .arrow-right .glyphicon {
+  padding-left: 0.6em;
+}
+.sign.destination-right {
+  text-align: right;
+}
+.sign.destination-centre {
+  text-align: center;
+}
+.sign.sign-red {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+.sign.sign-blue {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+.sign.sign-yellow {
+  background-color: #ffff00;
+  color: #000000;
+}
+.sign.sign-purple {
+  background-color: #330099;
+  color: #ffffff;
+}
+.sign.sign-orange {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.sign.sign-dark-green {
+  background-color: #003300;
+  color: #ffffff;
+}
+.sign.sign-green {
+  background-color: #009933;
+  color: #ffffff;
+}
+.sign.sign-light-green {
+  background-color: #66cc33;
+  color: #ffffff;
+}
+.sign.sign-aqua-green {
+  background-color: #009966;
+  color: #ffffff;
+}
+.sign.sign-aqua-blue {
+  background-color: #0099cc;
+  color: #ffffff;
+}
+.sign.sign-light-blue {
+  background-color: #0099ff;
+  color: #ffffff;
+}
+.sign.sign-dark-blue {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+.sign.sign-dark-pink {
+  background-color: #990066;
+  color: #ffffff;
+}
+.sign.sign-dark-red {
+  background-color: #990000;
+  color: #ffffff;
+}
+.sign.sign-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+.sign.sign-white {
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
 }
 .clearfix:before,
 .clearfix:after,
