@@ -6565,6 +6565,111 @@ button.close {
   color: #000000;
   border: 3px solid #000000;
 }
+.label-nhs-blue {
+  background-color: #0066cc;
+}
+.label-nhs-blue[href]:hover,
+.label-nhs-blue[href]:focus {
+  background-color: #004c99;
+}
+.label-nhs-dark-green {
+  background-color: #003300;
+}
+.label-nhs-dark-green[href]:hover,
+.label-nhs-dark-green[href]:focus {
+  background-color: #000000;
+}
+.label-nhs-green {
+  background-color: #009933;
+}
+.label-nhs-green[href]:hover,
+.label-nhs-green[href]:focus {
+  background-color: #006622;
+}
+.label-nhs-light-green {
+  background-color: #66cc33;
+}
+.label-nhs-light-green[href]:hover,
+.label-nhs-light-green[href]:focus {
+  background-color: #52a329;
+}
+.label-nhs-aqua-green {
+  background-color: #009966;
+}
+.label-nhs-aqua-green[href]:hover,
+.label-nhs-aqua-green[href]:focus {
+  background-color: #006644;
+}
+.label-nhs-aqua-blue {
+  background-color: #0099cc;
+}
+.label-nhs-aqua-blue[href]:hover,
+.label-nhs-aqua-blue[href]:focus {
+  background-color: #007399;
+}
+.label-nhs-light-blue {
+  background-color: #0099ff;
+}
+.label-nhs-light-blue[href]:hover,
+.label-nhs-light-blue[href]:focus {
+  background-color: #007acc;
+}
+.label-nhs-dark-blue {
+  background-color: #0066cc;
+}
+.label-nhs-dark-blue[href]:hover,
+.label-nhs-dark-blue[href]:focus {
+  background-color: #004c99;
+}
+.label-nhs-purple {
+  background-color: #330099;
+}
+.label-nhs-purple[href]:hover,
+.label-nhs-purple[href]:focus {
+  background-color: #220066;
+}
+.label-nhs-dark-pink {
+  background-color: #990066;
+}
+.label-nhs-dark-pink[href]:hover,
+.label-nhs-dark-pink[href]:focus {
+  background-color: #660044;
+}
+.label-nhs-dark-red {
+  background-color: #990000;
+}
+.label-nhs-dark-red[href]:hover,
+.label-nhs-dark-red[href]:focus {
+  background-color: #660000;
+}
+.label-nhs-red {
+  background-color: #cc0000;
+}
+.label-nhs-red[href]:hover,
+.label-nhs-red[href]:focus {
+  background-color: #990000;
+}
+.label-nhs-orange {
+  background-color: #ff6600;
+}
+.label-nhs-orange[href]:hover,
+.label-nhs-orange[href]:focus {
+  background-color: #cc5200;
+}
+.label-nhs-yellow {
+  background-color: #ffff00;
+}
+.label-nhs-yellow[href]:hover,
+.label-nhs-yellow[href]:focus {
+  background-color: #cccc00;
+}
+.label-nhs-black {
+  background-color: #000000;
+}
+.label-nhs-black[href]:hover,
+.label-nhs-black[href]:focus {
+  background-color: #000000;
+}
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
