@@ -1391,7 +1391,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #66c2ff;
 }
 ul,
 ol {
@@ -5753,7 +5753,7 @@ button.close {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #777777;
   min-height: 16.42857143px;
 }
 .modal-header .close {
@@ -5770,7 +5770,7 @@ button.close {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #777777;
 }
 .modal-footer .btn + .btn {
   margin-left: 5px;
